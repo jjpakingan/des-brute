@@ -1,6 +1,6 @@
-#CC = gcc
+CC = mpicc
 #CFLAGS = -O3 -DUSE_TOMCRYPT -Isrc
-CFLAGS = -O3 -DUSE_OPENSSL -Isrc
+CFLAGS = -O3 -DUSE_OPENSSL -Isrc -lm
 #LIBS = -ltomcrypt
 LIBS = -lcrypto
 MPILIBS = -lmpi
